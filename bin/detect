@@ -2,6 +2,8 @@
 # bin/detect <build-dir>
 
 cat <<EOF >$1/Aptfile
+openssl 
+libssl-dev 
 uuid-dev
 EOF
 
