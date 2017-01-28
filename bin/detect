@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-apt-get update
-
 cat <<EOF >$1/Aptfile
-openssl 
-libssl-dev 
+openssl
+libssl-dev
+uuid
 uuid-dev
 EOF
 
